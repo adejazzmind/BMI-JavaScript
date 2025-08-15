@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS BMI APP</title>
+    <script>
+        function BMIAPP(){
+            var WEIGHT=document.getElementById("weight").value;
+            var HEIGHT=document.getElementById("height").value;
+            var BMI=WEIGHT/(HEIGHT*HEIGHT);
+            document.getElementById("x").innerHTML=BMI;
+        }
+        </script>
+    </head>
+    <body>
+
+        <h3>BMI APP</h3>
+        WEIGHT:<input type="number" name="weight" id="weight"></input><br><br>
+        HEIGHT:<input type="number" name="height" id="height"></input><br><br>
+        <p id="x"></p>
+        <input type="submit" name="bmi" value="BMI" onclick="BMIAPP()">
+</body>
+</html>
