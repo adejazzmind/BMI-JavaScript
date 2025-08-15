@@ -1,0 +1,1 @@
+In JavaScript, "BMI" refers to the Body Mass Index, a numerical value calculated to assess a person's weight status in relation to their height. It is commonly used as a screening tool to categorize individuals as underweight, normal weight, overweight, or obese.
